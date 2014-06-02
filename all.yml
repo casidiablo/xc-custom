@@ -16,8 +16,7 @@
     tap: caskroom/fonts
     package_name: font-sauce-code-powerline
 
-  # cli
-  # shell tooling
+  # dev
   - role: git
     git_user_name: Cristian
     git_user_email: me@cristian.io
@@ -27,6 +26,16 @@
     package_name: mongodb
   - role: brew_package
     package_name: sbt
+  - role: cask_package
+    package_name: slack
+  - role: cask_package
+    package_name: appdelete
+  - role: cask_package
+    package_name: intellij-idea
+  - role: cask_package
+    package_name: spotify
+  - role: cask_package
+    package_name: dash
   ## deployment
   - role: brew_package
     package_name: heroku-toolbelt
