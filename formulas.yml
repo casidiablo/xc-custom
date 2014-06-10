@@ -1,0 +1,9 @@
+---
+- name: install homebrew formulas
+  homebrew: name={{ item }} state=present
+  with_items:
+     - heroku-toolbelt
+     - fortune
+     - cowsay
+     - sbt
+     - mongodb

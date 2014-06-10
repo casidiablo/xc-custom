@@ -1,0 +1,14 @@
+---
+- name: install homebrew casks
+  homebrew_cask: name={{ item }} state=present
+  with_items:
+    - iterm2
+    - vlc
+    - intellij-idea
+    - dash
+    - spotify
+    - slack
+    - appdelete
+    - antirsi
+    - colloquy
+    - asepsis
