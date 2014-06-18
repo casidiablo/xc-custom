@@ -11,3 +11,4 @@
      - ack
      - stow
      - aria2
+     - parallel
