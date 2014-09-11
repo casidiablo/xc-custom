@@ -12,3 +12,17 @@
      - stow
      - aria2
      - parallel
+     - w3m
+     - lynx
+     - mercurial
+     - watch
+     - sphinx
+     - go
+     - httpie
+     - lolcat
+     - wine
+     - mutt
+     - p7zip
+     - gpg
+     - urlview
+     - gch
